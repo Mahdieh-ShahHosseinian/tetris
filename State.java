@@ -1,0 +1,3 @@
+enum State {
+    START, STOP
+}

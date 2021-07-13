@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true"/>
+
+      <Label alignment="CENTER" prefHeight="18.0" prefWidth="599.0" style="-fx-background-color: Gray;" text="Tetris" textFill="#5c27cc">
+         <font>
+            <Font name="Century" size="31.0" />
+         </font>
+      </Label>
+      
+      <VBox prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #ff7274;" text="new Game">
+               <VBox.margin>
+                  <Insets left="220.0" top="10.0" />
+               </VBox.margin></Button>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #ff7274;" text="Score Table">
+               <VBox.margin>
+                  <Insets left="220.0" top="10.0" />
+               </VBox.margin></Button>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #ff7274;" text="Setting">
+               <VBox.margin>
+                  <Insets left="220.0" top="10.0" />
+               </VBox.margin></Button>
+            <Button fx:id="exit" mnemonicParsing="false" onAction="#exitClicked" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #ff7274;" text="Exit">
+               <VBox.margin>
+                  <Insets left="220.0" top="10.0" />
+               </VBox.margin></Button>
+         </children>
+      </VBox>
+   </children>
+</VBox>
